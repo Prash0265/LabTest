@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		47E16CB92915C8A1003BEBF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E16CB82915C8A1003BEBF4 /* AppDelegate.swift */; };
 		47E16CBB2915C8A1003BEBF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E16CBA2915C8A1003BEBF4 /* SceneDelegate.swift */; };
-		47E16CBD2915C8A1003BEBF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E16CBC2915C8A1003BEBF4 /* ViewController.swift */; };
+		47E16CBD2915C8A1003BEBF4 /* startScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E16CBC2915C8A1003BEBF4 /* startScreen.swift */; };
 		47E16CC02915C8A1003BEBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E16CBE2915C8A1003BEBF4 /* Main.storyboard */; };
 		47E16CC22915C8A2003BEBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E16CC12915C8A2003BEBF4 /* Assets.xcassets */; };
 		47E16CC52915C8A2003BEBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E16CC32915C8A2003BEBF4 /* LaunchScreen.storyboard */; };
+		47E16CCD2915CF71003BEBF4 /* stopScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E16CCC2915CF71003BEBF4 /* stopScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47E16CB52915C8A1003BEBF4 /* Prashanth_C0871509_LabTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prashanth_C0871509_LabTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E16CB82915C8A1003BEBF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47E16CBA2915C8A1003BEBF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		47E16CBC2915C8A1003BEBF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47E16CBC2915C8A1003BEBF4 /* startScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startScreen.swift; sourceTree = "<group>"; };
 		47E16CBF2915C8A1003BEBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47E16CC12915C8A2003BEBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E16CC42915C8A2003BEBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47E16CC62915C8A2003BEBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E16CCC2915CF71003BEBF4 /* stopScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				47E16CB82915C8A1003BEBF4 /* AppDelegate.swift */,
 				47E16CBA2915C8A1003BEBF4 /* SceneDelegate.swift */,
-				47E16CBC2915C8A1003BEBF4 /* ViewController.swift */,
+				47E16CBC2915C8A1003BEBF4 /* startScreen.swift */,
+				47E16CCC2915CF71003BEBF4 /* stopScreen.swift */,
 				47E16CBE2915C8A1003BEBF4 /* Main.storyboard */,
 				47E16CC12915C8A2003BEBF4 /* Assets.xcassets */,
 				47E16CC32915C8A2003BEBF4 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47E16CBD2915C8A1003BEBF4 /* ViewController.swift in Sources */,
+				47E16CBD2915C8A1003BEBF4 /* startScreen.swift in Sources */,
+				47E16CCD2915CF71003BEBF4 /* stopScreen.swift in Sources */,
 				47E16CB92915C8A1003BEBF4 /* AppDelegate.swift in Sources */,
 				47E16CBB2915C8A1003BEBF4 /* SceneDelegate.swift in Sources */,
 			);
