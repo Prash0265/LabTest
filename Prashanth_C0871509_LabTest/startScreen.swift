@@ -31,7 +31,7 @@ class startScreen: UIViewController {
         //timeLabel.text = "00:00"
         let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let stopScreenVC = mainSB.instantiateViewController(withIdentifier: "stopScreen")
-        /// make a modal segue
+        /// make a modal segue    
 //            self.present(homeVC, animated: true, completion: nil)
         navigationController?.pushViewController(stopScreenVC, animated: true)
     }
