@@ -13,6 +13,7 @@ class startScreen: UIViewController {
     var minsCounter = 00
     var timer = Timer()
     var isPlaying = false
+    var myCounter = 1
 
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var lapButton: UIButton!
@@ -28,12 +29,23 @@ class startScreen: UIViewController {
     
     
     @IBAction func startTimer(_ sender: Any) {
+       // startButton.text  = "Stop"
+      
+        if(isPlaying) {
+                return
+            }
+            startButton.setTitle("Stop", for: .normal)
+            startButton.isEnabled = false
+            //pauseButton.isEnabled = true
+                
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(UpdateTimer), userInfo: nil, repeats: true)
+            isPlaying = true
         //timeLabel.text = "00:00"
-        let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let stopScreenVC = mainSB.instantiateViewController(withIdentifier: "stopScreen")
+        //let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+       // let stopScreenVC = mainSB.instantiateViewController(withIdentifier: "stopScreen")
         /// make a modal segue    
 //            self.present(homeVC, animated: true, completion: nil)
-        navigationController?.pushViewController(stopScreenVC, animated: true)
+        //navigationController?.pushViewController(stopScreenVC, animated: true)
     }
     //    @IBAction func startTimer(_ sender: AnyObject) {
 //        if(isPlaying) {
@@ -63,6 +75,9 @@ class startScreen: UIViewController {
 //        timeLabel.text = "\(minsCounter):\(counter)"
 //    }
     
+    @IBAction func LapTable(_ sender: Any) {
+        
+    }
     @objc func UpdateTimer() {
         counter = counter + 01
         if counter == 60
