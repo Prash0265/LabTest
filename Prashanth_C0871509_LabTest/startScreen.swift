@@ -27,6 +27,9 @@ class startScreen: UIViewController {
         
     }
     
+    @IBAction func lapTimer(_ sender: Any) {
+        
+    }
     
     @IBAction func startTimer(_ sender: Any) {
        // startButton.text  = "Stop"
@@ -40,13 +43,10 @@ class startScreen: UIViewController {
                 
             timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(UpdateTimer), userInfo: nil, repeats: true)
             isPlaying = true
-        //timeLabel.text = "00:00"
-        //let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-       // let stopScreenVC = mainSB.instantiateViewController(withIdentifier: "stopScreen")
-        /// make a modal segue    
-//            self.present(homeVC, animated: true, completion: nil)
-        //navigationController?.pushViewController(stopScreenVC, animated: true)
+        
     }
+    
+    
     //    @IBAction func startTimer(_ sender: AnyObject) {
 //        if(isPlaying) {
 //                return
