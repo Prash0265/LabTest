@@ -104,8 +104,8 @@
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="fId-UV-qmY" kind="relationship" relationship="viewControllers" id="3j8-nx-ZjC"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="apW-zA-vhz"/>
+                        <segue destination="fId-UV-qmY" kind="relationship" relationship="viewControllers" id="3j8-nx-ZjC"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jFZ-6n-dx9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
